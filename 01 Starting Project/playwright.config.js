@@ -8,7 +8,7 @@ const config = {
   timeout: 30 * 1000,
   expect: {
     /**
-     * Maximum time expect() should wait for the condition to be met.
+     * Maximum time expect() should wait for the condition to be met. (adding nonsense)
      * For example in `await expect(locator).toHaveText();`
      */
     timeout: 5000,
