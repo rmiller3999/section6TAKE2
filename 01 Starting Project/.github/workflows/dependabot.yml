@@ -1,0 +1,11 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"  # Root directory, adjust if your package.json is in a subdirectory
+    schedule:
+      interval: "weekly"  # Options: daily, weekly, or monthly
+    ignore:
+      - dependency-name: "ip"
+        versions:
+          - "<2.0.1"
