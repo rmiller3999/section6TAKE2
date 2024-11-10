@@ -9,9 +9,9 @@ env:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: gitactions.7jom0.mongodb.net
-      MONGODB_PASSWORD: Krym$ka973!
-      MONGODB_USERNAME: bobbyjoe
+      MONGODB_CLUSTER_ADDRESS: gitactions.b2eqy.mongodb.net
+      MONGODB_USERNAME: rmiller400
+      MONGODB_PASSWORD: rArMZ3wIdEzyJKwD
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
